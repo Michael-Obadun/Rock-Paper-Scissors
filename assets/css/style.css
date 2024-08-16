@@ -65,3 +65,44 @@ margin: auto;
     margin: auto;
     gap: 3px;
 }
+
+
+/*Media Quries for tablets*/
+
+@media (min-width: 760px) {
+    .gamearea {
+        height: 85vh;
+        width: 80vw;
+        box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
+        margin: auto;
+       
+    }
+    
+    .myBtns {
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        gap: 3px;
+    }
+    .plyScoreDisplay {
+        display: flex;
+        height: 18%;
+        width:86%;
+        box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

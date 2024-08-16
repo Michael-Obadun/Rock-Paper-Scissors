@@ -1,3 +1,57 @@
 body{
     background-color: hsl(34, 52%, 57%);
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gamearea{
+    height: 90vh;
+    width: 94vw;
+    box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
+margin: auto;
+}
+
+/* Computer Section*/
+.cpuScoreDisplay{
+    height: 15%;
+    width: 86%;
+    box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
+    margin-left:auto;
+    margin-top: 20px;
+}
+#computerDisplay{
+    height: 23%;
+    width: 60%;
+    box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
+    margin: auto;
+    margin-top: 20px;
+}
+    
+/* Results Section*/
+#resultDisplay{
+    height: 8%;
+    width: 80%;
+    box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Player Section*/
+#playerDisplay{
+    height: 26%;
+    width: 60%;
+    box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
+    margin: auto;
+    margin-top: 20px;
+}
+.plyScoreDisplay{
+    height: 18%;
+    width: 86%;
+    box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+

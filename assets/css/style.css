@@ -47,11 +47,21 @@ margin: auto;
     margin-top: 20px;
 }
 .plyScoreDisplay{
+    display: flex;
     height: 18%;
     width: 86%;
     box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
     margin-right: auto;
     margin-top: 20px;
 }
-
-
+.playerScore{
+    display: flex;
+}
+.myBtns{
+    width: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 3px;
+}
